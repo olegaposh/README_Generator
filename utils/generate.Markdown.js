@@ -11,7 +11,7 @@ function generateMarkdown(data) {
  
    
 
-
+[![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://poser.pugx.org/ali-irawan/xtra/license.svg)
 
 Table Of Contents:
 
