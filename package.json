@@ -1,5 +1,5 @@
 {
-  "name": "README_Generator",
+  "name": "readme_generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/olegaposh/README_Generator/issues"
   },
-  "homepage": "https://github.com/olegaposh/README_Generator#readme"
+  "homepage": "https://github.com/olegaposh/README_Generator#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.1.0"
+  }
 }
