@@ -15,13 +15,13 @@ function generateMarkdown(data) {
 
 Table Of Contents:
 
--Description
--Installation
--Usage
--License
--Contribting
--Tests
--Questions
+Description
+Installation
+Usage
+License
+Contribting
+Tests
+Questions
 
 ## Description: 
 

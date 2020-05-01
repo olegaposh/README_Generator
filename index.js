@@ -11,6 +11,7 @@
 
 // init();
 
+// avatar_url
 
 
 const fs = require("fs");
@@ -53,7 +54,17 @@ function promptUser () {
             type: "input",
             name: "contributing",
             message: "Please list the contributors of this Project"
-        }
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "what are the steps to install?"
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "What command should be run to run tests?"
+          }
     ]);   
 }
 
@@ -72,6 +83,7 @@ promptUser()
         throw err;
     })
  })
+ 
 //     console.log("sucess!")
     
 //     .catch(function(err){
