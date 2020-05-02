@@ -1,29 +1,11 @@
-// const questions = [
-
-// ];
-
-// function writeToFile(fileName, data) {
-// }
-
-// function init() {
-
-// }
-
-// init();
-
-// avatar_url
-
-
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const gm = require("./utils/generate.Markdown");
 const axios = require("axios");
 
+
 const writeFileAsync = util.promisify(fs.writeFile);
-
-
-
 
 inquirer.prompt([
     {
@@ -72,20 +54,40 @@ inquirer.prompt([
         message: "Enter your Github username:"
     }
 ])
-    .then(function (answers, username) {
+    .then(function (answers) {
 
-        let readme = gm.generateMarkdown(answers)
 
-        const queryURL = `https://api.github.com/users/${username}`;
+
+        const queryURL = `https://api.github.com/users/${answers.username}`;
 
         axios
             .get(queryURL)
             .then(function (res) {
 
-                console.log(res.data);
-                console.log("success");
+               
 
 
+                answers["avatar_url"] = res.data.avatar_url;
+
+                if (res.data.email === null) {
+
+                    answers.email = "No email available"
+                } else {
+                    answers.email = res.data.email
+                }
+                //answers.avatar_url = es.data.avatar_url;
+
+                let readme = gm.generateMarkdown(answers);
+
+                writeFileAsync("README.md", readme)
+                    .then(function () {
+
+                        console.log("hello u did it?!");
+                    })
+                    .catch(function (err) {
+
+                        console.log(err);
+                    })
 
             });
 
@@ -93,15 +95,7 @@ inquirer.prompt([
 
 
 
-        writeFileAsync("README.md", readme)
-            .then(function () {
 
-                console.log("hello u did it?!");
-            })
-            .catch(function (err) {
-
-                console.log(err);
-            })
     })
     .catch(function (err) {
 
