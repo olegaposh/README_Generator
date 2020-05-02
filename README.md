@@ -2,7 +2,7 @@
   # README Generator
 
 
-  ## Video - [Click here]("https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview")
+  ## Video - 	[Click Here](https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview)
 
 
 
