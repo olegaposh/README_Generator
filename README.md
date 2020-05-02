@@ -2,8 +2,9 @@
   # README Generator
 
 
-  ## Video -   
-  <iframe src="https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview" width="640" height="480"></iframe>
+  ## Video - 	[Click Here](https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview)
+
+
 
     Table of Contents:
   
