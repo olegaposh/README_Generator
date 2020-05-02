@@ -57,6 +57,15 @@ function generateMarkdown(data) {
     
   
   ${data.contributing}
+
+
+
+  ## GithubInfo:
+ 
+  <img src="${data.avatar_url}" />
+  
+Email : ${data.email}
+
   `;
   }
   
