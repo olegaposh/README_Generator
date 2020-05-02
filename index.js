@@ -26,7 +26,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "usage",
-        message: "Please provide the usage of this Project.(How is it useful in the world?"
+        message: "Please provide the usage of this Project.(How is it useful in the world?)"
     },
     {
         type: "input",
@@ -41,7 +41,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "test",
-        message: "what are the steps to install?"
+        message: "What are the steps to test your Project?"
     },
     {
         type: "input",
@@ -82,7 +82,7 @@ inquirer.prompt([
                 writeFileAsync("README.md", readme)
                     .then(function () {
 
-                        console.log("hello u did it?!");
+                        console.log("ReadME has been created!");
                     })
                     .catch(function (err) {
 
@@ -90,10 +90,6 @@ inquirer.prompt([
                     })
 
             });
-
-
-
-
 
 
     })

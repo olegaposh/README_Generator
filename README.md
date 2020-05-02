@@ -1,5 +1,9 @@
 
-    # 
+  # README Generator
+
+
+  ## Video -   
+  <iframe src="https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview" width="640" height="480"></iframe>
 
     Table of Contents:
   
@@ -13,6 +17,7 @@
   
   - [Contributing](#contributing)
   
+  
     
   
   [![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://poser.pugx.org/ali-irawan/xtra/license.svg)
@@ -23,7 +28,7 @@
   
     
   
-  
+  creates a readme.md file by answeing a few questions.
   
      
   
@@ -31,7 +36,7 @@
   
     
   
-  
+   rpm install
   
     
   
@@ -39,7 +44,7 @@
   
     
   
-  
+  By sacing time eliminating headaches of having to create a readme file all on your own.
   
     
   
@@ -47,7 +52,7 @@
   
     
   
-  
+  MIT
   
     
   
@@ -55,7 +60,7 @@
   
     
   
-  
+  Alex Poshivailo
 
 
 
@@ -66,3 +71,4 @@
 Email : No email available
 
   
+  <a src="https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview" width="640" height="480">Click Here</a>
