@@ -29,7 +29,7 @@
   
     
   
-  Creates a readme.md file by answering a few questions. This application uses Inquirer to collect some information from the user. Also uses Axios to make an API call to retrieve the user's github email and avatar. 
+  Creates a README.md file by answering a few questions. This application uses Inquirer to collect some information from the user. Also uses Axios to make an API call to retrieve the user's github email and avatar. 
   
      
   
