@@ -29,7 +29,7 @@
   
     
   
-  creates a readme.md file by answeing a few questions.
+  Creates a readme.md file by answering a few questions. This application uses Inquirer to collect some information from the user. Also uses Axios to make an API call to retrieve the user's github email and avatar. 
   
      
   
@@ -37,7 +37,8 @@
   
     
   
-   rpm install
+    1. 'npm install'
+    2. 'node index.js' 
   
     
   
@@ -45,7 +46,7 @@
   
     
   
-  By sacing time eliminating headaches of having to create a readme file all on your own.
+  By saving time and eliminating headaches of having to create a readme file all on your own.
   
     
   
@@ -65,11 +66,3 @@
 
 
 
-  ## GithubInfo:
- 
-  <img src="https://avatars1.githubusercontent.com/u/60416026?v=4" />
-  
-Email : No email available
-
-  
-  <a src="https://drive.google.com/file/d/1Hb2Ul8VuhUWIKe-8TbgFA69qWJfuyMSh/preview" width="640" height="480">Click Here</a>
