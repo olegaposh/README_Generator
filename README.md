@@ -1,5 +1,10 @@
 
-    # 
+  # README Generator
+
+
+  ## Video - 	[Click Here](https://drive.google.com/file/d/1InOL1sGYRlOhiK1peOMwsKEr2z-HcGea/view)
+
+
 
     Table of Contents:
   
@@ -13,6 +18,7 @@
   
   - [Contributing](#contributing)
   
+  
     
   
   [![License](https://poser.pugx.org/ali-irawan/xtra/license.svg)](https://poser.pugx.org/ali-irawan/xtra/license.svg)
@@ -23,7 +29,7 @@
   
     
   
-  
+  Creates a README.md file by answering a few questions. This application uses Inquirer to collect some information from the user. Also uses Axios to make an API call to retrieve the user's github email and avatar. 
   
      
   
@@ -31,7 +37,8 @@
   
     
   
-  
+    1. 'npm install'
+    2. 'node index.js' 
   
     
   
@@ -39,7 +46,7 @@
   
     
   
-  
+  By saving time and eliminating headaches of having to create a readme file all on your own.
   
     
   
@@ -47,7 +54,7 @@
   
     
   
-  
+  MIT
   
     
   
@@ -55,14 +62,7 @@
   
     
   
-  
+  Alex Poshivailo
 
 
 
-  ## GithubInfo:
- 
-  <img src="https://avatars1.githubusercontent.com/u/60416026?v=4" />
-  
-Email : No email available
-
-  
