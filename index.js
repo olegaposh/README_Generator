@@ -7,6 +7,8 @@ const axios = require("axios");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
+
+
 inquirer.prompt([
     {
         type: "input",
@@ -26,7 +28,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "usage",
-        message: "Please provide the usage of this Project.(How is it useful in the world?"
+        message: "Please provide the usage of this Project.(How is it useful in the world?)"
     },
     {
         type: "input",
@@ -41,7 +43,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "test",
-        message: "what are the steps to install?"
+        message: "What are the steps to test your Project?"
     },
     {
         type: "input",
@@ -55,7 +57,7 @@ inquirer.prompt([
     }
 ])
     .then(function (answers) {
-
+        
 
 
         const queryURL = `https://api.github.com/users/${answers.username}`;
@@ -67,7 +69,7 @@ inquirer.prompt([
                
 
 
-                answers["avatar_url"] = res.data.avatar_url;
+                answers.avatar_url = res.data.avatar_url;
 
                 if (res.data.email === null) {
 
@@ -75,14 +77,14 @@ inquirer.prompt([
                 } else {
                     answers.email = res.data.email
                 }
-                //answers.avatar_url = es.data.avatar_url;
+                
 
                 let readme = gm.generateMarkdown(answers);
-
+                console.log(answers);
                 writeFileAsync("README.md", readme)
                     .then(function () {
 
-                        console.log("hello u did it?!");
+                        console.log("ReadME has been created!");
                     })
                     .catch(function (err) {
 
@@ -91,11 +93,7 @@ inquirer.prompt([
 
             });
 
-
-
-
-
-
+           
     })
     .catch(function (err) {
 
